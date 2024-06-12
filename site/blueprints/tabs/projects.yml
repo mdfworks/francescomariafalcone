@@ -1,0 +1,8 @@
+title: Projects
+icon: page
+
+sections:
+  pages:
+    label: "Projects"
+    type: pages
+    template: project

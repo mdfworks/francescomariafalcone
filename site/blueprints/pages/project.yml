@@ -1,0 +1,33 @@
+title: Project
+icon: page
+
+fields:
+  tags:
+    label: Tags
+    type: tags
+    max: 1
+    width: 1/3
+  year:
+    label: Year
+    type: number
+    min: 2000
+    max: 2030
+    width: 1/3
+  location:
+    label: Location
+    type: text
+    width: 1/3
+  info:
+    label: Project Info
+    type: textarea
+  pre:
+    label: Image Text
+    type: text
+    width: 1/3
+  gallery:
+    label: Project Gallery
+    type: files
+    layout: cards
+    image:
+      cover: true
+      ratio: 16/9
